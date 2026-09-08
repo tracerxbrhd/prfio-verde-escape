@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ecebe3" />
+    <meta
+      name="description"
+      content="Considered cabins, quiet landscapes and space to slow down. Explore a more grounded kind of escape."
+    />
+    <title>Verde Escape — A little closer to nowhere.</title>
+    <link rel="icon" href="./icons/leaf.svg" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="header">
+      <a class="brand" href="#" aria-label="Verde Escape home"
+        ><svg viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M6 8c25-4 31 8 23 18S8 32 6 8Z" />
+          <path d="m10 12 24 24M18 20l10-2" /></svg
+        ><span>verde<small>ESCAPE</small></span></a
+      >
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#places">Our places</a><a href="#philosophy">Our way</a
+        ><a href="#experience">Slow living</a>
+      </nav>
+      <button class="header-book" data-book>
+        Find your escape <span>↗</span></button
+      ><button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        Menu
+      </button>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <img
+          class="hero-image"
+          src="./media/forest-cabin.webp"
+          width="1536"
+          height="1024"
+          alt="A timber cabin beside a still lake in a misty pine forest"
+          fetchpriority="high"
+        />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <span class="eyebrow">LESS HURRY. MORE HERE.</span>
+          <h1>A little closer<br />to <em>nowhere.</em></h1>
+          <p>
+            Considered cabins. Quiet landscapes.<br />Space to come back to
+            yourself.
+          </p>
+          <a class="light-link" href="#places"
+            >Discover our places <span>↗</span></a
+          >
+        </div>
+        <div class="hero-caption">
+          <span>01 / THE LAKE HOUSE</span><span>52° 04′ N · 14° 03′ E</span
+          ><a href="#intro" aria-label="Scroll to introduction">↓</a>
+        </div>
+      </section>
+      <section id="intro" class="intro wrap">
+        <span class="eyebrow">A DIFFERENT KIND OF AWAY</span>
+        <h2>
+          You don't need to go far.<br />Just
+          <em>a little further from busy.</em>
+        </h2>
+        <p>
+          Leave the full calendar behind. Find a place where mornings unfold
+          slowly, the outdoors is always close, and doing less feels like
+          enough.
+        </p>
+        <div class="intro-line">
+          <span>SMALL FOOTPRINT</span><span>THOUGHTFUL COMFORT</span
+          ><span>ROOM TO BREATHE</span>
+        </div>
+      </section>
+      <section id="places" class="places wrap">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">01 / OUR PLACES</span>
+            <h2>Find your<br /><em>own quiet.</em></h2>
+          </div>
+          <p>Two places to settle in.<br />Neither asks much of you.</p>
+        </div>
+        <div class="cabins">
+          <article>
+            <button
+              class="cabin-photo"
+              data-gallery="0"
+              aria-label="Open Lake House photograph"
+            >
+              <img
+                src="./media/forest-cabin.webp"
+                width="1200"
+                height="800"
+                alt="Lake House surrounded by woodland"
+                loading="lazy"
+              /><span>BY THE WATER</span><i>↗</i>
+            </button>
+            <div class="cabin-meta">
+              <h3>The Lake House</h3>
+              <span>From €195 / night</span>
+            </div>
+            <p>For still mornings and the occasional wild swim.</p>
+            <div class="cabin-facts">
+              <span>2 guests</span><span>42 m²</span
+              ><span>Lakeside · Brandenburg</span>
+            </div>
+            <button class="text-button" data-book data-cabin="lake">
+              Explore your stay <span>↗</span>
+            </button>
+          </article>
+          <article class="second-cabin">
+            <button
+              class="cabin-photo"
+              data-gallery="1"
+              aria-label="Open Woodland Suite photograph"
+            >
+              <img
+                src="./media/oak-interior.webp"
+                width="1200"
+                height="800"
+                alt="Warm oak cabin interior opening onto the forest"
+                loading="lazy"
+              /><span>AMONG THE TREES</span><i>↗</i>
+            </button>
+            <div class="cabin-meta">
+              <h3>The Woodland Suite</h3>
+              <span>From €245 / night</span>
+            </div>
+            <p>A little more room, with the forest all around.</p>
+            <div class="cabin-facts">
+              <span>4 guests</span><span>64 m²</span
+              ><span>Woodland · Uckermark</span>
+            </div>
+            <button class="text-button" data-book data-cabin="woodland">
+              Explore your stay <span>↗</span>
+            </button>
+          </article>
+        </div>
+      </section>
+      <section id="philosophy" class="philosophy">
+        <div class="philosophy-image">
+          <img
+            src="./media/oak-interior.webp"
+            width="1200"
+            height="800"
+            alt="Sunlight crossing natural oak floors and linen seating"
+            loading="lazy"
+          />
+        </div>
+        <div class="philosophy-content">
+          <span class="eyebrow">02 / THE VERDE WAY</span>
+          <h2>Less, but<br /><em>with meaning.</em></h2>
+          <p>
+            We believe comfort and care can share the same space. So we choose
+            natural materials, work with nearby makers and keep our places
+            deliberately small.
+          </p>
+          <p>
+            A good bed. A warm room. A window worth sitting beside. Everything
+            you need, with space for what matters.
+          </p>
+          <div class="principle">
+            <span>01</span>
+            <div>
+              <h3>Built to belong</h3>
+              <p>
+                Timber, natural light and a gentle presence in the landscape.
+              </p>
+            </div>
+          </div>
+          <div class="principle">
+            <span>02</span>
+            <div>
+              <h3>Close to the source</h3>
+              <p>
+                Seasonal breakfast baskets from independent local producers.
+              </p>
+            </div>
+          </div>
+          <div class="principle">
+            <span>03</span>
+            <div>
+              <h3>Small by intention</h3>
+              <p>
+                Space between cabins. Quiet after dark. A slower pace, shared.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="experience wrap">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">03 / SLOW LIVING</span>
+            <h2>No itinerary.<br /><em>A few possibilities.</em></h2>
+          </div>
+          <p>
+            Follow a trail. Follow your appetite.<br />Or don't go anywhere at
+            all.
+          </p>
+        </div>
+        <div class="experiences">
+          <article>
+            <span class="experience-icon" aria-hidden="true">≈</span
+            ><span class="eyebrow">EARLY / BY THE WATER</span>
+            <h3>A colder kind<br />of wake-up call.</h3>
+            <p>
+              A lake dip, a deep breath and a hot coffee back at the cabin.
+              Mornings on your terms.
+            </p>
+          </article>
+          <article>
+            <span class="experience-icon" aria-hidden="true">↟</span
+            ><span class="eyebrow">LATER / IN THE WOODS</span>
+            <h3>Take the<br />long way around.</h3>
+            <p>
+              Walking maps, two good bicycles and winding paths that rarely
+              require a plan.
+            </p>
+          </article>
+          <article>
+            <span class="experience-icon" aria-hidden="true">☼</span
+            ><span class="eyebrow">EVENING / AT HOME</span>
+            <h3>Stay in.<br />Look out.</h3>
+            <p>
+              Cook something simple. Put another log on. Watch the light leave
+              the trees.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="amenities wrap">
+        <span class="eyebrow">THE LITTLE THINGS, ALREADY THERE</span>
+        <div>
+          <span>Natural linen</span><span>Equipped kitchen</span
+          ><span>Wood-burning stove</span><span>Breakfast basket</span
+          ><span>Bicycles to borrow</span
+          ><span>Fast Wi-Fi, if you need it</span>
+        </div>
+      </section>
+      <section class="gallery wrap">
+        <div class="section-heading">
+          <h2>A sense of <em>here.</em></h2>
+          <div class="gallery-controls">
+            <button id="gallery-prev" aria-label="Previous gallery image">
+              ←</button
+            ><span id="gallery-count">01 / 02</span
+            ><button id="gallery-next" aria-label="Next gallery image">
+              →
+            </button>
+          </div>
+        </div>
+        <button
+          class="gallery-main"
+          id="gallery-open"
+          aria-label="Enlarge gallery image"
+        >
+          <img
+            id="gallery-image"
+            src="./media/forest-cabin.webp"
+            alt="The Lake House, just before the day begins"
+            width="1536"
+            height="1024"
+            loading="lazy"
+          /><span id="gallery-caption"
+            >The Lake House, just before the day begins.</span
+          ><span class="enlarge">↗</span>
+        </button>
+      </section>
+      <section class="reviews">
+        <div class="wrap">
+          <span class="eyebrow">NOTES LEFT BEHIND</span>
+          <blockquote>
+            “We arrived with a list of things to do.<br />By the second morning,
+            we'd forgotten<br />where we put it.”
+          </blockquote>
+          <p>
+            Hannah &amp; Luis <span>— A long weekend at The Lake House</span>
+          </p>
+        </div>
+      </section>
+      <section id="faq" class="faq wrap">
+        <div>
+          <span class="eyebrow">BEFORE YOU WANDER</span>
+          <h2>A few things<br /><em>you might wonder.</em></h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>How do we get there?</summary>
+            <p>
+              Both places are around 90 minutes from Berlin. The Lake House is
+              closest to Bad Saarow station; the Woodland Suite is near
+              Angermünde. Your stay guide includes the final route and local
+              taxi information.
+            </p>
+          </details>
+          <details>
+            <summary>Can we bring our dog?</summary>
+            <p>
+              Well-behaved dogs are welcome in the Woodland Suite, with a €25
+              cleaning supplement per stay. Please keep them on a lead around
+              wildlife. The Lake House stays pet-free.
+            </p>
+          </details>
+          <details>
+            <summary>What's included in our stay?</summary>
+            <p>
+              All linen, towels, firewood, coffee, tea, bicycles and your first
+              morning's breakfast basket. The kitchen has everything needed for
+              a simple meal. Nightly prices include taxes and standard cleaning.
+            </p>
+          </details>
+          <details>
+            <summary>Is there a minimum stay?</summary>
+            <p>
+              Two nights, so there is time to properly settle in. Arrival is
+              from 15:00 and departure by 11:00. The planner supports stays of
+              up to 21 nights.
+            </p>
+          </details>
+          <details>
+            <summary>How does the stay planner work?</summary>
+            <p>
+              Choose a cabin, dates and guests to calculate an indicative price
+              and save a stay plan. This is an interactive booking
+              demonstration: it does not check live inventory, accept payment or
+              confirm a reservation.
+            </p>
+          </details>
+        </div>
+      </section>
+      <section class="booking-cta">
+        <span class="eyebrow">MAKE A LITTLE SPACE</span>
+        <h2>Your out-of-office<br /><em>starts here.</em></h2>
+        <button data-book>Find your escape <span>↗</span></button>
+        <p>A quiet place. A couple of days. Just enough.</p>
+      </section>
+    </main>
+    <footer class="footer wrap">
+      <a class="brand" href="#"
+        ><span>verde<small>ESCAPE</small></span></a
+      >
+      <p>Considered places.<br />A slower kind of stay.</p>
+      <nav aria-label="Footer">
+        <a href="#places">Our places</a><a href="#faq">Good to know</a
+        ><a href="./credits.html">Credits</a>
+      </nav>
+      <span>© 2026 Verde Escape</span>
+    </footer>
+    <dialog id="booking-dialog" aria-labelledby="booking-title">
+      <button class="close-dialog" aria-label="Close stay planner">×</button
+      ><span class="eyebrow">A LITTLE TIME FOR YOURSELF</span>
+      <h2 id="booking-title">Plan your <em>escape.</em></h2>
+      <p class="planner-intro">
+        An indicative stay plan. No payment or reservation is made.
+      </p>
+      <form id="booking-form">
+        <label class="full"
+          >Your place<select name="cabin" id="cabin">
+            <option value="lake">The Lake House · €195 / night</option>
+            <option value="woodland">The Woodland Suite · €245 / night</option>
+          </select></label
+        ><label
+          >Arrive<input
+            type="date"
+            name="arrival"
+            id="arrival"
+            required /></label
+        ><label
+          >Leave<input
+            type="date"
+            name="departure"
+            id="departure"
+            required /></label
+        ><label
+          >Guests<select name="guests" id="guests">
+            <option value="1">1 guest</option>
+            <option value="2" selected>2 guests</option>
+            <option value="3">3 guests</option>
+            <option value="4">4 guests</option>
+          </select></label
+        ><label class="dog-option"
+          ><input type="checkbox" id="dog" name="dog" /> Bringing a dog</label
+        >
+        <p id="booking-error" role="alert" class="full"></p>
+        <div class="price-summary full" aria-live="polite">
+          <div>
+            <span id="stay-length">2 nights · 2 guests</span
+            ><strong id="stay-total">€390</strong>
+          </div>
+          <span id="stay-breakdown"
+            >€195 × 2 nights · taxes &amp; cleaning included</span
+          >
+        </div>
+        <button class="save-plan full" type="submit">
+          Save stay plan <span>↓</span>
+        </button>
+        <p id="booking-success" class="full" role="status"></p>
+      </form>
+    </dialog>
+    <dialog id="lightbox" aria-label="Photograph viewer">
+      <button id="lightbox-close" aria-label="Close photograph">×</button
+      ><img
+        id="lightbox-image"
+        src="./media/forest-cabin.webp"
+        alt="Lake House"
+      />
+      <p id="lightbox-caption"></p>
+      <div>
+        <button id="lightbox-prev" aria-label="Previous photograph">←</button
+        ><button id="lightbox-next" aria-label="Next photograph">→</button>
+      </div>
+    </dialog>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

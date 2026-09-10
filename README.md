@@ -138,4 +138,6 @@ Verde Escape demonstrates the visitor-side planning experience. It does **not** 
 
 Those boundaries are intentional: the implemented planner can be evaluated on its own without implying infrastructure that is not present.
 
-MIT licensed; dependencies retain their upstream licenses.
+## License
+
+This repository is source-available for portfolio review and evaluation only. The original code, designs, documentation, and project-specific media are **not open source** and may not be reused, redistributed, incorporated into other projects, or commercially exploited without prior written permission. See the [Portfolio Source License](LICENSE) for the complete terms. Third-party dependencies retain their upstream licenses.

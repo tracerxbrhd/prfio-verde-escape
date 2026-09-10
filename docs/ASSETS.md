@@ -1,16 +1,27 @@
 # Asset provenance
 
-Mode: built-in image generation tool. Each prompt produced one original project image; no stock media was downloaded. Images were encoded locally as WebP using Sharp. Source PNGs were preserved outside the repository.
+Verde Escape uses two project-specific cabin images stored locally under `public/media/`. They depict imagined places and are not photographs of a real hotel, rental property or commercial retreat.
 
-## public/media/forest-cabin.webp
+No stock photography is fetched by the application.
 
-Final generation prompt:
+## `public/media/forest-cabin.webp`
 
-> Use case: photorealistic-natural. Asset: full-width cinematic hero photograph for premium eco retreat Verde Escape. Original imagined location, not a real hotel. Wide 3:2 architectural photograph of one exquisite small dark timber cabin with floor-to-ceiling glazing and warm interior light, nestled in a mature pine forest beside a still lake. Quiet early morning mist, moss, calm forest greens and muted earthy browns. Refined Scandinavian architecture, believable material detail. Cabin centered right, trees and dark open space at left for white typography overlay. No people, no text, no watermark, no UI. Editorial hospitality photography.
+A wide exterior image used as the primary retreat/hero scene. It was generated specifically for this project from a brief describing an original dark-timber cabin beside a still lake in a mature pine forest, with early mist, restrained natural colors and open composition for editorial typography.
 
-## public/media/oak-interior.webp
+The final WebP is a local project asset. The source generation requested no people, logos, text or watermark.
 
-Final generation prompt:
+## `public/media/oak-interior.webp`
 
-> Use case: photorealistic-natural. Asset: hospitality cabin interior photograph for Verde Escape. Original imagined cabin. Wide 3:2 photograph of an oak-lined minimal retreat cabin interior: low linen sofa, handmade ceramic cup, large picture window framing quiet pine forest and misty lake, warm morning light on oak floor, architectural calm. Olive, flax, warm timber palette. No people, no text, no logos, no watermark. Authentic premium magazine photography.
+A wide interior image showing an imagined oak-lined retreat with a minimal seating area and forest/lake view. It was generated specifically for Verde Escape from a project brief emphasizing warm timber, linen, natural light and quiet hospitality photography.
 
+The final WebP is stored locally. The source generation requested no people, logos, text or watermark.
+
+## Interface assets
+
+Interface icons and marks shipped by the project are locally authored SVG/CSS assets. No Flaticon source file is redistributed.
+
+System fonts are used through the visitor's operating system; the repository does not redistribute a commercial font package.
+
+## Screenshots
+
+Files in `docs/screenshots/` are captures of the running Verde Escape interface and include the project media above. They are documentation images rather than third-party promotional photography.
